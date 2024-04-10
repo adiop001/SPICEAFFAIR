@@ -1,0 +1,242 @@
+body{
+    margin: 0;
+    font-size: 16px;
+    line-height: 20px;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.clear{
+    clear: both;
+}
+header{
+    background-color: #16191e;
+    padding: 15px 0;
+    border-bottom: 5px solid;
+    border-color: #999966;
+}
+header .menu{
+    padding: 10px;
+    float: right;
+    margin-top: 5px;
+}
+header .menu li{
+    float: left;
+    padding: 10px;
+}
+header .menu a{
+    color: white;
+}
+header a:hover{
+    color: #999966;
+}
+header .contact a{
+    color: #ab3f1b;
+}
+.banner{
+    background-image: url(../img/banner.jpg);
+    padding: 150px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+}
+.banner::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #0000009a;
+}
+.banner h1{
+    text-align: center;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: 40px;
+    z-index: 1;
+    position: relative;
+}
+.banner p{
+    color: #999966;
+    text-align: center;
+    margin-bottom: 50px;
+    z-index: 1;
+    position: relative;
+}
+.banner a{
+    background-color: #ab3f1b;
+    color: white;
+    padding: 15px 30px;
+    z-index: 1;
+    position: relative;
+}
+.banner a:hover{
+    background-color: transparent;
+    border: 2px solid;
+    color:#ab3f1b;
+}
+.sec1{
+    background-color: #16191e;
+    padding: 100px;
+}
+.sec1 .hbox{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+}
+.sec1 .hbox .box{
+    text-align: center;
+    padding: 30px;
+    background-color: #26282c;
+    margin-left: 30px;
+    border: 2px solid #999966;
+}
+.sec1 .hbox .box img{
+    padding-bottom: 15px;
+    padding-top: 30px;
+}
+.sec1 .hbox .box h3{
+    color: #999966;
+    padding-bottom: 15px;
+}
+.sec2{
+    background-image: url(../img/banner2.jpg);
+    padding: 100px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.sec2::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #00000050;
+}
+.sec2 form{
+    background-color: transparent;
+    width: 50%;
+    margin: 30px auto;
+    padding: 20px 40px;
+    box-shadow:5px 10px 20px 2px #0006;
+    margin-left: 0;
+}
+.sec2 label{
+    width: 25%;
+    font-size: 20px;
+    padding: 5px;
+    display: inline-block;
+    color: #999966;
+}
+.sec2 input{
+    width: 60%;
+    padding: 10px 5px;
+    margin-bottom: 20px;
+    border: 2px dashed #999966;
+    background-color: transparent;
+    color: #fff;
+}
+.sec2 form input[type="submit"]{
+    display: block;
+    width: 20%;
+    margin: 20px auto;
+    padding: 15px 0;
+    background-color: #fff;
+    color: #999966;
+    border: transparent;
+}
+.sec2 textarea{
+    width: 61%;
+    margin-top: 30px;
+    background-color: transparent;
+    color: #fff;
+    border: 2px dashed #999966;
+}
+
+.sec3{
+    background-image: url(../img/map.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 150 0;
+    position: relative;
+    border: 5px solid #999966;
+}
+.sec3 h2{
+    padding: 150px 0;
+}
+.sec3::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #00000050;
+}
+.footer1{
+    background-color: #0b0d0f;
+    padding: 30px 0;
+    color: #fff;
+}
+.footer1 .Hgroup{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    margin-left: 150px;
+}
+.footer1 .sbox2 .a1 a{
+    background-color: #ab3f1b;
+    padding: 15px 30px;
+    color: #fff;
+}
+.footer1 .group h2{
+    padding-top: 50px;
+    padding-left: 60px;
+}
+.footer1 .Hgroup .group .textul{
+    text-align: left;
+    line-height: 35px;
+}
+.footer1 .Hgroup .group .textul .li1{
+    color: #999966;
+}
+.footer1 .Hgroup .group .sbox2 ul{
+    padding: 0 25px;
+}
+.footer1 .Hgroup .group .sbox2 li{
+   float: left;
+   padding: 20px 15px;
+}
+.footer1 .Hgroup .group .sbox2 li a{
+    color: #fff;
+}
+footer{
+    background-color: #16191e;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    padding-left: 100px;
+}
+footer span{
+    color: #999966;
+} 

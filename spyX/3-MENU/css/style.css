@@ -1,0 +1,226 @@
+body{
+    margin: 0;
+    font-size: 16px;
+    line-height: 20px;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6,p{
+   margin: 0;
+   padding: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+}
+.clear{
+    clear:both;
+}
+header{
+    background-color: #16191e;
+    padding: 15px 0;
+    border-bottom: 5px solid;
+    border-color: #999966;
+}
+header .menu{
+    padding: 10px;
+    float: right;
+    margin-top: 5px;
+}
+header .menu li{
+    float: left;
+    padding: 10px;
+}
+header .menu a{
+    color: white;
+}
+header a:hover{
+    color: #999966;
+}
+header .menuli a{
+    color: #ab3f1b;
+}
+.banner{
+    background-image: url(../images/Banner.jpg);
+    padding: 150px 0;
+    background-position: center;
+    background-repeat: none;
+    text-align: center;
+}
+.banner h1{
+    font-size: 56px;
+    color: #fff;
+    padding-top: 10px;
+}
+.banner h2{
+    color: #999966;
+    font-size: 35px;
+    font-family: 'Great Vibes', cursive;
+}
+.startr{
+    background-color: #e4e7eb;
+    padding: 30px 0;
+}
+.startr .Hbox{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    padding: 30px 200px;
+}
+.startr h3,h2{
+    text-align: center;
+    padding: 10px 0;
+}
+.startr .Hbox img{
+    padding-right: 10px;
+}
+.startr h3{
+    color: #999966;
+    font-size: 35px;
+    padding-bottom: 15px;
+    font-family: 'Great Vibes', cursive;
+}
+.startr h4{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.startr h5{
+    color: #999966;
+}
+.startr p{
+    padding: 15px 0;
+}
+
+.startr1{
+    background-color: #e4e7eb;
+    padding: 30px 0;
+}
+.startr1 .Hbox2{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    padding: 30px 200px;
+}
+.startr1 h3,h2{
+    text-align: center;
+    padding: 10px 0;
+}
+.startr1 .Hbox2 img{
+    padding-right: 10px;
+}
+.startr1 h3{
+    color: #999966;
+    font-size: 35px;
+    padding-bottom: 15px;
+    font-family: 'Great Vibes', cursive;
+}
+.startr1 h4{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.startr1 h5{
+    color: #999966;
+}
+.startr1 p{
+    padding: 15px 0;
+}
+.banner2{
+    background-image: url(../images/BG-sec.jpg);
+    padding: 100px 0;
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    text-align: center;
+}
+.banner2 h2{
+    font-size: 56px;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.banner2 h3{
+    color: #999966;
+    font-size: 50px;
+    font-family: 'Great Vibes', cursive;
+    padding-bottom: 30px;
+}
+.banner2 a{
+    color: #fff;
+    background-color: #ab3f1b;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+.banner2 a:hover{
+    background-color: transparent;
+    color: #ab3f1b;
+    border: 2px solid;
+    padding: 13px 28px;
+}
+.fresh{
+    background-color: #ead6af;
+    padding-left: 100px;
+    padding: 50px 0;
+}
+.fresh .Hfresh{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+}
+.fresh .Hfresh .box1{
+    text-align: center;
+}
+.footer1{
+    background-color: #0b0d0f;
+    padding: 30px 0;
+    color: #fff;
+}
+.footer1 .Hgroup{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    margin-left: 150px;
+}
+.footer1 .sbox2 .a1 a{
+    background-color: #ab3f1b;
+    padding: 15px 30px;
+    color: #fff;
+}
+.footer1 .group h2{
+    padding-top: 50px;
+    padding-left: 60px;
+}
+.footer1 .Hgroup .group .textul{
+    text-align: left;
+    line-height: 35px;
+}
+.footer1 .Hgroup .group .textul .li1{
+    color: #999966;
+}
+.footer1 .Hgroup .group .sbox2 ul{
+    padding: 0 25px;
+}
+.footer1 .Hgroup .group .sbox2 li{
+   float: left;
+   padding: 20px 15px;
+}
+.footer1 .Hgroup .group .sbox2 li a{
+    color: #fff;
+}
+footer{
+    background-color: #16191e;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    padding-left: 100px;
+}
+footer span{
+    color: #999966;
+} 
